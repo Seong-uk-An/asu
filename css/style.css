@@ -1,0 +1,165 @@
+@media screen and (max-width: 1000px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkblue;
+    height: 30px;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .nav-bar-title {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    height: 30px;
+  }
+
+  .logo-img {
+    width: 30px;
+  }
+
+  .title {
+    margin-left: 10px;
+  }
+
+  .menus {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+  }
+
+  .upper {
+    text-transform: uppercase;
+  }
+
+  .capitalize {
+    text-transform: capitalize;
+  }
+
+  .socials {
+    display: flex;
+    align-items: center;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+
+  .facebook {
+    margin-left: 10px;
+  }
+
+  .hide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    font-size: 1.5rem;
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 50px;
+  }
+
+  /* .hidden {
+    display: none;
+  } */
+}
+
+@media screen and (min-width: 1000px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkblue;
+    height: 30px;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .nav-bar-title {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    height: 30px;
+  }
+
+  .logo-img {
+    width: 30px;
+  }
+
+  .title {
+    margin-left: 10px;
+  }
+
+  .menu {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    margin: 0 1rem 0 1rem;
+  }
+
+  .upper {
+    text-transform: uppercase;
+  }
+
+  .capitalize {
+    text-transform: capitalize;
+  }
+
+  .socials {
+    display: flex;
+    align-items: center;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  }
+
+  .facebook {
+    margin-left: 10px;
+  }
+
+  .hide {
+    display: none;
+  }
+}
